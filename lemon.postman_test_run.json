@@ -1,0 +1,170 @@
+{
+	"id": "55086aaa-22f1-468b-958b-c05aa6e8811b",
+	"name": "lemon",
+	"timestamp": "2020-03-24T02:39:49.350Z",
+	"collection_id": "f144b766-b872-43ed-a76e-c9c0cab0fb14",
+	"folder_id": 0,
+	"environment_id": "0",
+	"totalPass": 23,
+	"totalFail": 1,
+	"results": [
+		{
+			"id": "b4f89012-b12e-4f53-b0aa-69b620082d00",
+			"name": "注册",
+			"time": 211,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"注册成功": true
+			},
+			"testPassFailCounts": {
+				"注册成功": {
+					"pass": 3,
+					"fail": 1
+				}
+			},
+			"times": [
+				565,
+				254,
+				208,
+				211
+			],
+			"allTests": [
+				{
+					"注册成功": false
+				},
+				{
+					"注册成功": true
+				},
+				{
+					"注册成功": true
+				},
+				{
+					"注册成功": true
+				}
+			]
+		},
+		{
+			"id": "c6a413b4-f064-4a6b-a4da-0e6102c660f3",
+			"name": "登录",
+			"time": 296,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"Content-Type is present": true,
+				"含有登录成功": true,
+				"Status code name has ok": true,
+				"Successful POST request": true
+			},
+			"testPassFailCounts": {
+				"Content-Type is present": {
+					"pass": 4,
+					"fail": 0
+				},
+				"含有登录成功": {
+					"pass": 4,
+					"fail": 0
+				},
+				"Status code name has ok": {
+					"pass": 4,
+					"fail": 0
+				},
+				"Successful POST request": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				385,
+				486,
+				278,
+				296
+			],
+			"allTests": [
+				{
+					"Content-Type is present": true,
+					"含有登录成功": true,
+					"Status code name has ok": true,
+					"Successful POST request": true
+				},
+				{
+					"Content-Type is present": true,
+					"含有登录成功": true,
+					"Status code name has ok": true,
+					"Successful POST request": true
+				},
+				{
+					"Content-Type is present": true,
+					"含有登录成功": true,
+					"Status code name has ok": true,
+					"Successful POST request": true
+				},
+				{
+					"Content-Type is present": true,
+					"含有登录成功": true,
+					"Status code name has ok": true,
+					"Successful POST request": true
+				}
+			]
+		},
+		{
+			"id": "e0eed8e8-b762-4165-bbcb-47d03b4a3d80",
+			"name": "充值",
+			"time": 670,
+			"responseCode": {
+				"code": 200,
+				"name": "OK"
+			},
+			"tests": {
+				"充值成功": true
+			},
+			"testPassFailCounts": {
+				"充值成功": {
+					"pass": 4,
+					"fail": 0
+				}
+			},
+			"times": [
+				524,
+				706,
+				477,
+				670
+			],
+			"allTests": [
+				{
+					"充值成功": true
+				},
+				{
+					"充值成功": true
+				},
+				{
+					"充值成功": true
+				},
+				{
+					"充值成功": true
+				}
+			]
+		}
+	],
+	"count": 4,
+	"collection": {
+		"requests": [
+			{
+				"id": "b4f89012-b12e-4f53-b0aa-69b620082d00",
+				"method": "GET"
+			},
+			{
+				"id": "c6a413b4-f064-4a6b-a4da-0e6102c660f3",
+				"method": "GET"
+			},
+			{
+				"id": "e0eed8e8-b762-4165-bbcb-47d03b4a3d80",
+				"method": "POST"
+			}
+		]
+	}
+}

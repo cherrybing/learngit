@@ -1,0 +1,21 @@
+{
+  "platformName": "Android",
+  "appPackage": "com.hpbr.bosszhipin",
+  "appActivity": ".module.tutorial.activity.TutorialActivity2",
+  "deviceName": "1"
+}
+
+appium自动化环境配置
+1，安装appium
+  依赖nodejs、net4.5.1.exe
+  appium桌面版下载1.13版本
+  安装给当前用户，而不是所有用户，会有权限问题
+2，安装java jdk
+   因为andriod是用的java环境
+3，andriod环境
+   adt_bundle
+   andriod studio(集成环境)
+4，模拟器/连接手机真机
+   模拟器的adb版本与andriod的adb版本需要一致，如果不一致，将模拟器安装目录的adb.exe替换到andriod目录下的adb.exe
+   真机：开发者模式（多次点击版本号）、USB调试模式
+5，Appium-Python-Client
