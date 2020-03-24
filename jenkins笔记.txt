@@ -12,3 +12,4 @@ Check console output at $BUILD_URL to view the results.
 jenkens安装插件
 有在线安装和离线安装两种方式
 在线安装：再插件管理输入插件名称搜索
+离线安装：再官网下载插件安装包，然后再上传文件安装
