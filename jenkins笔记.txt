@@ -3,8 +3,7 @@
 用户名：cherryyang 密码：yangbing89
 url：http://localhost:8088/jenkins
 
-
-右键内容默认配置：
+邮件内容默认配置：
 $PROJECT_NAME - Build # $BUILD_NUMBER - $BUILD_STATUS:
 
 Check console output at $BUILD_URL to view the results.
@@ -14,5 +13,3 @@ jenkens安装插件
 在线安装：再插件管理输入插件名称搜索
 离线安装：再官网下载插件安装包，然后再上传文件安装
 
-第一次修改
-第二次修改
